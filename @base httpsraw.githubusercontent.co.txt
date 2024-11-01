@@ -17,8 +17,12 @@
    foaf:primaryTopic <#rodrigo> .
 
 <#rodrigo> a foaf:Person ;
+   rdfs:label "Aidan Hogan" ;
+   rdfs:comment "DCC Student"@es , "Estudiante del DCC"@es ;
    foaf:name "Rodrigo Araya" ;
    foaf:age "24" ;
+   foaf:givenName "Rodrigo" ;
+   foaf:familyName "Araya" ;
    foaf:img <https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Guinea_pig_Tequila.JPG/220px-Guinea_pig_Tequila.JPG> ;
    foaf:homepage <https://www.linkedin.com/in/rodrigo-antonio-araya-gallegos-0988aa230/> ;
    foaf:gender "male" ;
@@ -27,6 +31,6 @@
    social:hasSpiritAnimal dbr:Guinea_pig ;
    social:likesMovie <http://dbpedia.org/resource/Inception> , <http://dbpedia.org/resource/Eternal_Sunshine_of_the_Spotless_Mind>, <http://dbpedia.org/resource/Synecdoche,_New_York> ;
    social:hasFavouritePlatonicSolid dbr:Octahedron ;
-   foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> , <https://raw.githubusercontent.com/Sulkyy1/profile/refs/heads/main/foaf.ttl> , <https://raw.githubusercontent.com/javieraLabrin/javil.github.io/refs/heads/main/javieral.ttl> , <http://users.dcc.uchile.cl/~caruz/lab10.ttl#cr> ;
+   foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> , <https://raw.githubusercontent.com/Sulkyy1/profile/refs/heads/main/foaf.ttl> , <https://raw.githubusercontent.com/javieraLabrin/javil.github.io/refs/heads/main/javieral.ttl> , <http://users.dcc.uchile.cl/~caruz/lab10.ttl#cr> .
    
 
