@@ -1,0 +1,32 @@
+@base <https://raw.githubusercontent.com/arayagallegos/foaf-profile/refs/heads/main/foaf.ttl> . 
+
+@prefix ah: <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix social: <http://users.dcc.uchile.cl/~ahogan/social.ttl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix wd: <http://www.wikidata.org/entity/>.
+@prefix dbr: <http://dbpedia.org/resource/>
+
+<> a foaf:Document ;
+   dc:title "FOAF Profile for Rodrigo Araya" ;
+   dc:date "2024-11-01" ;
+   foaf:maker <#rodrigo> ;
+   foaf:primaryTopic <#rodrigo> .
+
+<#rodrigo> a foaf:Person ;
+   foaf:name "Rodrigo Araya" ;
+   foaf:age "24" ;
+   foaf:img <https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Guinea_pig_Tequila.JPG/220px-Guinea_pig_Tequila.JPG> ;
+   foaf:homepage <https://www.linkedin.com/in/rodrigo-antonio-araya-gallegos-0988aa230/> ;
+   foaf:gender "male" ;
+   foaf:myersBriggs "INTJ" ;
+   foaf:interest dbr:Semantic_Web, dbr:Portal_2, dbr:Wallows ;
+   social:hasSpiritAnimal dbr:Guinea_pig ;
+   social:likesMovie <http://dbpedia.org/resource/Inception> , <http://dbpedia.org/resource/Eternal_Sunshine_of_the_Spotless_Mind>, <http://dbpedia.org/resource/Synecdoche,_New_York> ;
+   social:hasFavouritePlatonicSolid dbr:Octahedron ;
+   foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> , <https://raw.githubusercontent.com/Sulkyy1/profile/refs/heads/main/foaf.ttl> , <https://raw.githubusercontent.com/javieraLabrin/javil.github.io/refs/heads/main/javieral.ttl> , <http://users.dcc.uchile.cl/~caruz/lab10.ttl#cr> ;
+   
+
